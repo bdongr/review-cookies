@@ -1,0 +1,32 @@
+.cookieForm{
+    display: flex;
+    flex-direction: column;
+}
+.cookieForm > textarea,
+.cookieForm > input{
+    border: rgb(197, 197, 197) 1px solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+.cookieForm > textarea{
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 10px 0;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons > button{
+    margin: 0 5px 0 5px;
+    border: 0px;
+    padding: 7px 15px 7px 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #85b394;
+    color: #fff;
+}
+
+.buttons > button[type="submit"]{
+    background-color: #a7ba59;
+}

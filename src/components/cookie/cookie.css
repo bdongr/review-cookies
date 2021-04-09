@@ -1,0 +1,15 @@
+.cookie{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.cookie > .name{
+    font-size: 20px;
+    margin: 0px;
+}
+.cookie > .review{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
